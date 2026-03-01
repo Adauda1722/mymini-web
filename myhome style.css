@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(238, 238, 241);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+
+}
+.logo{
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.links a{
+    gap: 15px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+.links a:hover{
+    color: rgb(133, 90, 10);
+    border-bottom: 1px solid rgb(165, 113, 17);
+}
+.bt{
+    width: 300px;
+    margin-left: 15px;
+}
+button{
+    width: 70px;
+    padding: 7px 15px;
+    background-color: green;
+    border-radius: 10px;
+    
+
+}
+button a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(138, 91, 3);
+}
+.video{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    pointer-events: none;
+    
+}
+.video-text{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-align: left;
+    top: 200px;
+    left: 50px;
+    text-shadow: 4px 3px 0px black;
+}
+.video-text h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+.video-text h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.video-text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.bt1{
+    width: 150px;
+    padding: 10px 20px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px black;
+    margin-top: 10px;
+}
+.bt1:hover{
+    background-color: rgb(139, 94, 10);
+}
+
+.bello{
+    width: 100%;
+    height: 500px;
+    /* background-color: rgb(163, 163, 224); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.yarima{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    gap: 15px;
+    margin-right: 20px;
+}
+.yarima img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+   
+}
+ 
+
+.abba{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-top: 150px;
+
+
+}
+.abba h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.abba h1{
+    font-family: sans-serif;
+    text-shadow: 2px 3px 0px green;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.abba p{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.idris{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(238, 238, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ahmad{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    gap: 15px;
+    margin-right: 20px;
+}
+.ahmad img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+   
+}
+
+
+.scientist{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-top: 150px;
+
+
+}
+.scientist h3{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: green;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.scientist h1{
+    font-family: sans-serif;
+    text-shadow: 2px 3px 0px green;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.scientist p{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.zainab-ali{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zainab{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: block;
+    padding: 25px;
+}
+
+.zainab p{
+    font-family: sans-serif;
+    color: rgb(19, 73, 19);
+    margin-bottom: 10px;
+}
+
+.zainab h1{
+    font-family: sans-serif;
+    /* font-size: 20px; */
+    margin-bottom: 10px;
+}
+
+.engr-zainab{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    /* gap: 20px; */
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.empty{
+    width: 100%;
+    height: 100px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(15, 58, 15);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.smedia{
+    width: 400px;
+    display: block;
+    height: 400px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.icon{
+    display: flex;
+    padding: 15px;
+    /* border: 1px solid white; */
+    width: 100px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.quick-links{
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+.quick-links ul, li{
+    padding: 3px;
+    font-family: sans-serif;
+    padding: 10px;
+     
+    
+
+}
+.quick-links ul, li,a{
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    color: white;
+     
+}
+
+.quick-links h2{
+    margin-bottom: 15px;
+}
+.quick-links ul, li,a:hover{
+    color: rgb(139, 105, 40);
+    
+}
+
+.subscription{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+}
+.subscription input{
+      padding: 10px;
+      margin: 10px;
+}
+#sub{
+    width: 200px;
+}
+
+
+
+  
